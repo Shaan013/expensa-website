@@ -31,7 +31,7 @@ export default function Footer() {
               <div className="flex items-center gap-2 mb-4">
                 {/* <img src="/logo.png" alt="Expensa Logo" className="h-10 w-auto object-contain" /> */}
                   <img
-            src="/public/Expensa_logo_without_name.png"
+            src="/Expensa_logo_without_name.png"
             alt="Expensa Logo Mark"
             className="h-25 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />

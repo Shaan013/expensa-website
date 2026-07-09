@@ -27,7 +27,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" onClick={(e) => handleScroll(e, '#hero')} className="flex items-center gap-2 group">
           <img
-            src="/public/Expensa_logo_without_name.png"
+            src="/Expensa_logo_without_name.png"
             alt="Expensa Logo Mark"
             className="h-25 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
