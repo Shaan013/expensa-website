@@ -33,7 +33,7 @@ export default function Footer() {
                   <img
             src="/Expensa_logo_without_name.png"
             alt="Expensa Logo Mark"
-            className="h-25 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            className="h-15 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
           <motion.h1 style={{fontSize:'30px'}}>Expensa</motion.h1>
               </div>
