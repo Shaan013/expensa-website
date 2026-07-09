@@ -27,10 +27,11 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" onClick={(e) => handleScroll(e, '#hero')} className="flex items-center gap-2 group">
           <img
-            src="dist\logo.png"
+            src="/public/Expensa_logo_without_name.png"
             alt="Expensa Logo Mark"
             className="h-25 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
+          <motion.h1 style={{fontSize:'30px'}}>Expensa</motion.h1>
         </a>
 
         {/* Desktop Nav Links */}

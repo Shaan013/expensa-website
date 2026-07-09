@@ -29,7 +29,13 @@ export default function Footer() {
               viewport={{ once: true }}
             >
               <div className="flex items-center gap-2 mb-4">
-                <img src="/logo.png" alt="Expensa Logo" className="h-10 w-auto object-contain" />
+                {/* <img src="/logo.png" alt="Expensa Logo" className="h-10 w-auto object-contain" /> */}
+                  <img
+            src="/public/Expensa_logo_without_name.png"
+            alt="Expensa Logo Mark"
+            className="h-25 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          />
+          <motion.h1 style={{fontSize:'30px'}}>Expensa</motion.h1>
               </div>
               <p className="text-sm text-muted-foreground mb-6 max-w-xs leading-relaxed">
                 Take control of your finances with intelligent tracking, beautiful insights,
